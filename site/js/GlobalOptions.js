@@ -270,7 +270,7 @@ var layerImageFormats = [
 */
 
 //EPSG projection code of your QGIS project
-var authid = "EPSG:"+3857;
+var authid = "EPSG:"+2154;
 
 //background transparency for the QGIS Server generated layer (commercial background layers not effected)
 //set to true if you want the background to be transparent, layer image will be bigger (32 vs 24bit)
@@ -301,7 +301,7 @@ var LayerOptions = {
   transitionEffect:"resize",
   isBaseLayer: false,
   projection:authid,
-  yx: {"EPSG:900913": false},
+  yx: {"EPSG:2154": false},
   // If your projection is known to have an inverse axis order in WMS 1.3 compared to WMS 1.1 enter true for yx.
   // For EPSG:900913 OpenLayers should know it by default but because of a bug in OL 2.12 we enter it here.
   tileOptions: {
