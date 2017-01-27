@@ -1,8 +1,8 @@
 //default language code, can be overwritten with lang parameter in URL
-var lang = "en"; //for available codes see array availableLanguages in file GlobalOptions.js
+var lang = "fr"; //for available codes see array availableLanguages in file GlobalOptions.js
 
 //Help file (must be a local file)
-var helpfile = "help_en.html";
+var helpfile = "help_fr.html";
 
 //Custom function to populate GetUrlParams variables
 var customGetUrlParamsParser = null;
@@ -236,7 +236,7 @@ var mapThemeSwitcherActive = true;
 var themeSwitcherTemplate = null;
 
 //first part of titlebar text
-var titleBarText = "GIS-Browser - "; // will be appended with project title
+var titleBarText = "LYCEE NATURE - Navigateur GIS - "; // will be appended with project title
 
 // header logo image and link
 var headerLogoImg = null; // path to image, set null for no logo
